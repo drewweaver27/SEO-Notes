@@ -1,7 +1,5 @@
 # SEO Notes
 
-# SEO Notes
-
 ## SEO Intro
 ### Sources 
 [SEO Intro](https://moz.com/beginners-guide-to-seo/why-search-engine-marketing-is-necessary)
