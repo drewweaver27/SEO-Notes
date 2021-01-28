@@ -31,7 +31,7 @@
     - The site's navigation makes it hard for the robot to crawl effectively
     - The site contains code called crawler directives that is blocking search engines
     - The site has been penalized by Google for spammy tactics
-  - Robots.txt
+  - #### Robots.txt
     - Located in the root directory of the website. Used for suggesting what parts of the site should and should not be crawled, and the speed at which they crawl the site by using robots.txt directives. 
       - Can block crawlers from accessing pages like old URLs with thin content, duplicate URLs (ex. sort-and-filter params for e-comm sites), special promo code pages, staging or test pages
     - How Googlebot treats robots.txt
@@ -41,9 +41,9 @@
     - Optimize for crawl budget
       - Crawl budget is the average number of URLs Googlebot will crawl before leaving a site, so crawl budget ensures that Googlebot doesn't waste time crawling meaningless pages while ignoring important pages. Crawl budget is really important on very large sites with thousands of URLs, but small sites can benefit from configuring the crawl budget as well. Be sure not to block crawlers access to pages that have other directives, such as cononical or noindex tags. If Googlebot is blocked from a page, it acts as if that page doesn't exist and it won't see the instructions on that page. 
     - Be careful handling private content in robots.txt, as malicious bots can use robots.txt to find where sensitive content is placed on the site. It's better to `noindex` those pages and gate them behind a login form rather than place them in the robots.txt file. 
-  - Defining URL parameters in Google Search Console
+  - #### Defining URL parameters in Google Search Console
     - Google usually does a good job a serving the representative URL on its own, but using the URL Parameters feature in Google Search Console can tell Google exactly how to treat the pages when URL parameters are applied. It can be used to tell Googlebot to "crawl no URLS with ___ parameter", hiding the content from Googlebot, removing those pages from search results. That is good if those parameters create duplicate pages, but not ideal if those pages are supposed to be indexed. 
-  - Now we know how crawlers work and how to keep them away from the bad content, but are they able to find the *good* content?
+  - #### Now we know how crawlers work and how to keep them away from the bad content, but are they able to find the *good* content?
     - Is the content hidden behind login forms? Crawlers can't log into a site to view pages
     - Does the site rely on a search form? Crawlers cannot use them
     - Is text hidden within non-text content (like images, videos, GIFs, etc)? If text needs to be indexed, do not put it in non-text content, put it as an actual text element because crawlers do not know how to read images for text very well. 
