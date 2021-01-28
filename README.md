@@ -1,9 +1,13 @@
 # SEO Notes
 
-## Sources 
-- [Moz Beginners SEO Guide](https://moz.com/beginners-guide-to-seo)
+# SEO Notes
 
-## [SEO Intro](https://moz.com/beginners-guide-to-seo/why-search-engine-marketing-is-necessary)
+## SEO Intro
+### Sources 
+[SEO Intro](https://moz.com/beginners-guide-to-seo/why-search-engine-marketing-is-necessary)
+
+### Notes
+
   - If the business operates locally out of a store-front or offers some other face-to-face service, using Google My Business listing is a good tool. 
   - Fulfilling user intent is important, use keyword searching to see the current SERP for the desired keywords.
   - Know the website's goals for SEO and the business goals to focus on a certian aspect of SEO, where to track conversions, and how to set benchmarks. 
@@ -19,7 +23,11 @@
       - Clicks-for-driving-directions
     - More traffic and high ranks are not KPIs, they are a means to an end. Put simply, what's the point of having traffic if they aren't accomplishing a business objective?
 
-## [Crawling, Indexing, and Ranking](https://moz.com/beginners-guide-to-seo/how-search-engines-operate)
+## Crawling, Indexing, and Ranking
+### Sources 
+[Crawling, Indexing, and Ranking](https://moz.com/beginners-guide-to-seo/how-search-engines-operate)
+
+### Notes
   ### Crawling: 
   Scour the internet for content and observe the code/content for URL found.
 
